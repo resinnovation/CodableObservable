@@ -20,7 +20,7 @@ class ObservableTestClass<T>: ObservableObject, Codable, Equatable where T: Coda
     }
 }
 
-class NonobservableTestClass<T>: Codable, Equatable where T:Codable & Equatable {
+class NonobservableTestClass<T>: Codable, Equatable where T: Codable & Equatable {
     var testVar: T
 
     init(testVar: T) {
