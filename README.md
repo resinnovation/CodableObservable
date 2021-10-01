@@ -24,6 +24,10 @@ dependencies: [
 After importing the following should be possible:
 
 ```swift
+import Foundation
+import Combine
+import CodableObservable
+
 class CodableObservabeClass: ObservableObject, Codable {
     @Published var string = "aString"
     @Published var int = 69
