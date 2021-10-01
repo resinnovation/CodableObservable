@@ -1,6 +1,6 @@
 # CodableObservable
 
-This Package aims to make the ObservableObject type comply to the Codable Protocol.
+This Package aims to make the ObservableObject type comply to the Codable Protocol.  
 :warning: It depends on some Mirror Magic and has to be regarded highly unstable :bangbang:
 
 ## Installation
